@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun joke-telling website with voice narration.">
+    <meta name="author" content="Your Name">
+    <title>Joke Teller</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=dev.to">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div class="loading-zone">
+        <img src="cube.svg" alt="Loading...">
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="gif-container">
+            <img src="3D Business GIF by L3S Research Center.gif" alt="Animated GIF" class="animated-gif">
+        </div>
+        <button id="joke-button">Tell Me A Joke</button>    
+        <audio id="audio" controls hidden></audio>   
+    </main> 
+
+    <!-- Language Selection -->
+    <div class="language_container">
+        <button class="language-button">English</button>
+        <button class="language-button">Español</button>
+        <span class="language-background"></span>
+    </div>
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+</body>
+</html>
